@@ -25,6 +25,12 @@ makeCacheMatrix <- function(x = matrix()) {
          getinverse = getinverse)
 }
   
+  ## x <- makeCachematrix()
+  ## x$getinverse(matrix(rnorm(4), nrow = 2, ncol=2))
+  ## x$getinverse()
+  ##        [,1]           [,2]
+  ##[1,] -0.74543258    -0.3889981
+  ##[2,] -0.07794461    -2.2784567
   
   
   ## Write a short comment describing this function
@@ -45,3 +51,4 @@ makeCacheMatrix <- function(x = matrix()) {
    x$setinverse(inverse)
    inverse
   }
+## cacheSolve(x)
